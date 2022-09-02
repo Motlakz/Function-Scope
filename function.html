@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Functions: Task 1</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <section class="preview">
+    </section>
+
+    <script>
+      const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+      const para = document.createElement('p');
+  
+      function chooseName() {
+        random();
+      }
+      chooseName();
+
+      function random() {
+        para.innerHTML = names[Math.floor(Math.random() * names.length)];
+    }
+
+      const section = document.querySelector('section');
+  
+      section.appendChild(para);
+    </script>
+  </body>
+</html>

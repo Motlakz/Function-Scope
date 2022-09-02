@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals 3</title>
+</head>
+<body>
+    <script>
+        function add7(num) {
+            return num + 7;
+        }
+        let result = add7(4);
+        console.log(result);
+
+        function multiply(a, b) {
+            return a * b;
+        }
+        let aim = multiply(3, 9);
+        console.log(aim);
+
+        function capitalize() {
+            const str = 'word';
+            const str2 = str.charAt(0).toUpperCase() + str.slice(1); 
+        
+            return str2;
+        }
+        capitalize();
+
+        function lastLetter() {
+            const myStr = 'Melancholy';
+            const myStr2 = myStr.charAt(myStr.length-1);
+            return myStr2;
+        }
+        lastLetter();
+    </script>
+</body>
+</html>
