@@ -19,7 +19,6 @@ const div = document.createElement('div');
 div.style.cssText = 'background: pink';
 div.style.borderStyle = 'solid';
 
-
 const h1 = document.createElement('h1');
 h1.textContent = "I'm in a div!";
 div.appendChild(h1);
